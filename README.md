@@ -1,1 +1,4 @@
-# pommerman-java-qmul
+# Monte Carlo Tree Search with Progressive Bias and Decaying Reward
+
+# Abstract
+In the sophisticated multi-player game Pommerman, agents compete to be the last one standing to win. This game presents AI with some really intriguing difficulties in terms of planning, learning, and teamwork. We will focus on MCTS (Monte Carlo Tree Search) in this paper and how we can improve its performance compared to different AI players. We will be using two different game modes (FFA/TEAM) to evaluate the performance of our agents and we provide insights into how the agents actually play the game, inspecting their behaviours to explain their performance. With a few exceptions, our main focus is on multi-agent issues, like multiplayer gaming. With one exception—we include MCTS algorithm use strategies that, in our opinion, could be easily employed if the given challenge involved several agents. We are going to use two methods namely “progressive bias” and “decaying reward” to improve the performance of MCTS and compare it with other AI agents along with some changes in other parameters for the agent.
